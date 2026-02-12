@@ -21,7 +21,8 @@ jobs:
           config: merge_hi3650_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: true   
+          aosp-clang-version: r353983c
           android-version: 8
           disable-lto: true
           anykernel3: true
