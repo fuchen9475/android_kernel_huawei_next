@@ -16,13 +16,13 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/sophiel-meow/android_kernel_huawei_next
-          kernel-dir: msm-4.4
+          kernel-dir: msm-4.9
           kernel-branch: official
           config: merge_hi3650_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true   
-          aosp-clang-version: r353983c
-          android-version: 8
+          aosp-clang-version: r383902
+          android-version: 12
           disable-lto: true
           anykernel3: true
